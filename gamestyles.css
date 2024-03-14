@@ -48,3 +48,14 @@ a:hover {
    
 
 }
+
+select {
+    height: calc(2vw + 2vh);
+    font-size: calc(2vw + 2vh);
+    background-color: palegoldenrod;
+    border-radius: -25px;
+}
+
+option {
+    font-size: calc(2vw + 2vh);
+}

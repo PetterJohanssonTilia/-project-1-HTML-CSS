@@ -16,16 +16,21 @@
 
       <div class="menutext center">
         <a href="index.html#happynews">News</a>
-        <a href="#games">Games</a>
+        <label class="menutext" id="#games" for="age"></label>
+        <select id="games" name="games" onchange="location = this.value;">
+            <option>Games</option>
+            <option value="#solitaire">Solitaire</option>
+            <option value="#mahjong">Mahjong</option>
+        </select>
         <a href="index.html#about us">About</a>
       </div>
 
       <div id="games" class="gamecontainer center">
         
-          <div>
+          <div id="solitaire">
             <script src="https://cdn.htmlgames.com/embed.js?game=MontanaSolitaire&amp;bgcolor=white"></script>
           </div>
-          <div>
+          <div id="mahjong">
             <script src="https://cdn.htmlgames.com/embed.js?game=Mahjong3DConnect&amp;bgcolor=white"></script>
           </div>
         
